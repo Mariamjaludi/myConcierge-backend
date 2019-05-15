@@ -20696,3 +20696,13 @@ Completed 200 OK in 22ms (Views: 17.8ms | ActiveRecord: 3.7ms)
   ↳ db/seeds.rb:399
   [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
   ↳ db/seeds.rb:399
+Started GET "/attractions" for ::1 at 2019-05-15 23:12:56 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by AttractionsController#index as HTML
+  [1m[36mAttraction Load (0.7ms)[0m  [1m[34mSELECT "attractions".* FROM "attractions"[0m
+  ↳ app/controllers/attractions_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.81ms)
+Completed 200 OK in 23ms (Views: 13.5ms | ActiveRecord: 7.7ms)
+
+
