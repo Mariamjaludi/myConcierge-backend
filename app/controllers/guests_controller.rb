@@ -4,7 +4,7 @@ class GuestsController < ApplicationController
   # GET /guests
   def index
     @guests = Guest.all
-    render json: @guests
+    render json: @guests, include: '*.*'
   end
 
   # GET /guests/1
@@ -40,10 +40,6 @@ class GuestsController < ApplicationController
   def guest_params
     params.require(:guest).permit(
       :name,
-      :phone_no,
-      :passport_no,
-      :phone_no,
-      :address,
       :check_in,
       :check_out,
       :room_id,
