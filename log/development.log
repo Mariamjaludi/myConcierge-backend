@@ -5673,3 +5673,2257 @@ Migrating to AddServiceTypeToServices (20190515151453)
   ↳ db/seeds.rb:396
   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
   ↳ db/seeds.rb:396
+Started GET "/" for ::1 at 2019-05-15 16:35:38 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mariam/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mariam/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-05-15 16:35:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotels" for ::1 at 2019-05-15 16:35:49 +0100
+Processing by HotelsController#index as HTML
+  [1m[36mHotel Load (1.2ms)[0m  [1m[34mSELECT "hotels".* FROM "hotels"[0m
+  ↳ app/controllers/hotels_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.19ms)
+Completed 200 OK in 22ms (Views: 15.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/guests" for ::1 at 2019-05-15 16:35:58 +0100
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (1.5ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ app/controllers/guests_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 11ms (Views: 1.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/guests" for ::1 at 2019-05-15 16:36:12 +0100
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ app/controllers/guests_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 2.8ms)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (8455.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myConcierge_development"[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (256.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myConcierge_development"[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (217.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myConcierge_test"[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (433.8ms)[0m  [1m[35mCREATE DATABASE "myConcierge_development" ENCODING = 'unicode'[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (433.9ms)[0m  [1m[35mCREATE DATABASE "myConcierge_test" ENCODING = 'unicode'[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "amenities" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "amenities" ("id" bigserial primary key, "hotel_id" integer, "amenity_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "attractions" CASCADE[0m
+  ↳ db/schema.rb:25
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "attractions" ("id" bigserial primary key, "attraction_name" character varying, "description" character varying, "image" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "bookings" CASCADE[0m
+  ↳ db/schema.rb:33
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "bookings" ("id" bigserial primary key, "service_id" integer, "guest_id" integer, "booking_date" date, "booking_time" time, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:33
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "guests" CASCADE[0m
+  ↳ db/schema.rb:42
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "guests" ("id" bigserial primary key, "room_id" integer, "guest_name" character varying, "days_stayed" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "check_in" character varying, "check_out" character varying)[0m
+  ↳ db/schema.rb:42
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "hotels" CASCADE[0m
+  ↳ db/schema.rb:52
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "hotels" ("id" bigserial primary key, "hotel_name" character varying, "location" character varying, "logo" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:52
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "rooms" CASCADE[0m
+  ↳ db/schema.rb:60
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" bigserial primary key, "hotel_id" integer, "room_type" character varying, "floor" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cost_per_night" integer)[0m
+  ↳ db/schema.rb:60
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "services" CASCADE[0m
+  ↳ db/schema.rb:69
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "services" ("id" bigserial primary key, "amenity_id" integer, "service_name" character varying, "price" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "description" character varying, "service_type" character varying)[0m
+  ↳ db/schema.rb:69
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190515151453)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190515105150),
+(20190515151433),
+(20190515144727),
+(20190515125002),
+(20190515103428),
+(20190515144014),
+(20190515103333),
+(20190515103137),
+(20190515103809),
+(20190515103722),
+(20190515103225),
+(20190515103608),
+(20190515105122),
+(20190515144702);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-15 15:39:00.806984"], ["updated_at", "2019-05-15 15:39:00.806984"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "amenities" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE "amenities" ("id" bigserial primary key, "hotel_id" integer, "amenity_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "attractions" CASCADE[0m
+  ↳ db/schema.rb:25
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "attractions" ("id" bigserial primary key, "attraction_name" character varying, "description" character varying, "image" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "bookings" CASCADE[0m
+  ↳ db/schema.rb:33
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "bookings" ("id" bigserial primary key, "service_id" integer, "guest_id" integer, "booking_date" date, "booking_time" time, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:33
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "guests" CASCADE[0m
+  ↳ db/schema.rb:42
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "guests" ("id" bigserial primary key, "room_id" integer, "guest_name" character varying, "days_stayed" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "check_in" character varying, "check_out" character varying)[0m
+  ↳ db/schema.rb:42
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "hotels" CASCADE[0m
+  ↳ db/schema.rb:52
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "hotels" ("id" bigserial primary key, "hotel_name" character varying, "location" character varying, "logo" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:52
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "rooms" CASCADE[0m
+  ↳ db/schema.rb:60
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" bigserial primary key, "hotel_id" integer, "room_type" character varying, "floor" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cost_per_night" integer)[0m
+  ↳ db/schema.rb:60
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "services" CASCADE[0m
+  ↳ db/schema.rb:69
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "services" ("id" bigserial primary key, "amenity_id" integer, "service_name" character varying, "price" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "description" character varying, "service_type" character varying)[0m
+  ↳ db/schema.rb:69
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190515151453)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190515105150),
+(20190515151433),
+(20190515144727),
+(20190515125002),
+(20190515103428),
+(20190515144014),
+(20190515103333),
+(20190515103137),
+(20190515103809),
+(20190515103722),
+(20190515103225),
+(20190515103608),
+(20190515105122),
+(20190515144702);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-15 15:39:00.931730"], ["updated_at", "2019-05-15 15:39:00.931730"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-05-15 15:39:00.935043"], ["key", "environment"]]
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mHotel Load (0.8ms)[0m  [1m[34mSELECT "hotels".* FROM "hotels"[0m
+  ↳ db/seeds.rb:1
+  [1m[36mGuest Load (0.7ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ db/seeds.rb:2
+  [1m[36mRoom Load (0.6ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms"[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAmenity Load (0.5ms)[0m  [1m[34mSELECT "amenities".* FROM "amenities"[0m
+  ↳ db/seeds.rb:4
+  [1m[36mService Load (0.5ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAttraction Load (0.4ms)[0m  [1m[34mSELECT "attractions".* FROM "attractions"[0m
+  ↳ db/seeds.rb:6
+  [1m[36mBooking Load (0.5ms)[0m  [1m[34mSELECT "bookings".* FROM "bookings"[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mHotel Create (0.6ms)[0m  [1m[32mINSERT INTO "hotels" ("hotel_name", "location", "logo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["hotel_name", "Test Hotel"], ["location", "London, United Kingdom"], ["logo", "app/assets/images/test_hotel_logo.png"], ["created_at", "2019-05-15 15:39:01.023050"], ["updated_at", "2019-05-15 15:39:01.023050"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.4ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.7ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 4], ["created_at", "2019-05-15 15:39:01.078184"], ["updated_at", "2019-05-15 15:39:01.078184"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.3ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 4], ["created_at", "2019-05-15 15:39:01.083015"], ["updated_at", "2019-05-15 15:39:01.083015"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 4], ["created_at", "2019-05-15 15:39:01.085532"], ["updated_at", "2019-05-15 15:39:01.085532"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 4], ["created_at", "2019-05-15 15:39:01.087641"], ["updated_at", "2019-05-15 15:39:01.087641"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 4], ["created_at", "2019-05-15 15:39:01.089938"], ["updated_at", "2019-05-15 15:39:01.089938"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 5], ["created_at", "2019-05-15 15:39:01.092205"], ["updated_at", "2019-05-15 15:39:01.092205"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 5], ["created_at", "2019-05-15 15:39:01.094295"], ["updated_at", "2019-05-15 15:39:01.094295"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 5], ["created_at", "2019-05-15 15:39:01.096605"], ["updated_at", "2019-05-15 15:39:01.096605"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 5], ["created_at", "2019-05-15 15:39:01.098731"], ["updated_at", "2019-05-15 15:39:01.098731"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Standard Room"], ["floor", 5], ["created_at", "2019-05-15 15:39:01.100837"], ["updated_at", "2019-05-15 15:39:01.100837"], ["cost_per_night", 312]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Room"], ["floor", 6], ["created_at", "2019-05-15 15:39:01.103038"], ["updated_at", "2019-05-15 15:39:01.103038"], ["cost_per_night", 434]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Room"], ["floor", 6], ["created_at", "2019-05-15 15:39:01.105214"], ["updated_at", "2019-05-15 15:39:01.105214"], ["cost_per_night", 434]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Room"], ["floor", 6], ["created_at", "2019-05-15 15:39:01.107254"], ["updated_at", "2019-05-15 15:39:01.107254"], ["cost_per_night", 434]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Room"], ["floor", 7], ["created_at", "2019-05-15 15:39:01.109298"], ["updated_at", "2019-05-15 15:39:01.109298"], ["cost_per_night", 434]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.3ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Room"], ["floor", 7], ["created_at", "2019-05-15 15:39:01.111654"], ["updated_at", "2019-05-15 15:39:01.111654"], ["cost_per_night", 434]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Double Room"], ["floor", 6], ["created_at", "2019-05-15 15:39:01.113889"], ["updated_at", "2019-05-15 15:39:01.113889"], ["cost_per_night", 479]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Double Room"], ["floor", 6], ["created_at", "2019-05-15 15:39:01.115990"], ["updated_at", "2019-05-15 15:39:01.115990"], ["cost_per_night", 479]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Double Room"], ["floor", 7], ["created_at", "2019-05-15 15:39:01.118392"], ["updated_at", "2019-05-15 15:39:01.118392"], ["cost_per_night", 479]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Double Room"], ["floor", 7], ["created_at", "2019-05-15 15:39:01.120628"], ["updated_at", "2019-05-15 15:39:01.120628"], ["cost_per_night", 479]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Superior Double Room"], ["floor", 7], ["created_at", "2019-05-15 15:39:01.122809"], ["updated_at", "2019-05-15 15:39:01.122809"], ["cost_per_night", 479]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Room"], ["floor", 8], ["created_at", "2019-05-15 15:39:01.124961"], ["updated_at", "2019-05-15 15:39:01.124961"], ["cost_per_night", 554]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Room"], ["floor", 8], ["created_at", "2019-05-15 15:39:01.127115"], ["updated_at", "2019-05-15 15:39:01.127115"], ["cost_per_night", 554]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.4ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Room"], ["floor", 9], ["created_at", "2019-05-15 15:39:01.129362"], ["updated_at", "2019-05-15 15:39:01.129362"], ["cost_per_night", 554]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Room"], ["floor", 9], ["created_at", "2019-05-15 15:39:01.131599"], ["updated_at", "2019-05-15 15:39:01.131599"], ["cost_per_night", 554]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.4ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Doule Room"], ["floor", 8], ["created_at", "2019-05-15 15:39:01.134230"], ["updated_at", "2019-05-15 15:39:01.134230"], ["cost_per_night", 604]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.4ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Doule Room"], ["floor", 8], ["created_at", "2019-05-15 15:39:01.137037"], ["updated_at", "2019-05-15 15:39:01.137037"], ["cost_per_night", 604]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.4ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Doule Room"], ["floor", 9], ["created_at", "2019-05-15 15:39:01.139600"], ["updated_at", "2019-05-15 15:39:01.139600"], ["cost_per_night", 604]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Doule Room"], ["floor", 9], ["created_at", "2019-05-15 15:39:01.142206"], ["updated_at", "2019-05-15 15:39:01.142206"], ["cost_per_night", 604]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "One Bedroom Suite"], ["floor", 10], ["created_at", "2019-05-15 15:39:01.144387"], ["updated_at", "2019-05-15 15:39:01.144387"], ["cost_per_night", 712]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "One Bedroom Suite"], ["floor", 11], ["created_at", "2019-05-15 15:39:01.146653"], ["updated_at", "2019-05-15 15:39:01.146653"], ["cost_per_night", 712]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Suite"], ["floor", 10], ["created_at", "2019-05-15 15:39:01.148909"], ["updated_at", "2019-05-15 15:39:01.148909"], ["cost_per_night", 1200]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Deluxe Suite"], ["floor", 11], ["created_at", "2019-05-15 15:39:01.151244"], ["updated_at", "2019-05-15 15:39:01.151244"], ["cost_per_night", 1200]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Luxury Suite"], ["floor", 12], ["created_at", "2019-05-15 15:39:01.153385"], ["updated_at", "2019-05-15 15:39:01.153385"], ["cost_per_night", 2770]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[36mRoom Create (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("hotel_id", "room_type", "floor", "created_at", "updated_at", "cost_per_night") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["hotel_id", 1], ["room_type", "Penthouse"], ["floor", 13], ["created_at", "2019-05-15 15:39:01.155438"], ["updated_at", "2019-05-15 15:39:01.155438"], ["cost_per_night", 5900]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[36mAmenity Create (0.5ms)[0m  [1m[32mINSERT INTO "amenities" ("hotel_id", "amenity_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["hotel_id", 1], ["amenity_name", "Restaurant"], ["created_at", "2019-05-15 15:39:01.164014"], ["updated_at", "2019-05-15 15:39:01.164014"]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[36mAmenity Create (0.3ms)[0m  [1m[32mINSERT INTO "amenities" ("hotel_id", "amenity_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["hotel_id", 1], ["amenity_name", "Housekeeping"], ["created_at", "2019-05-15 15:39:01.166808"], ["updated_at", "2019-05-15 15:39:01.166808"]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[36mAmenity Create (0.3ms)[0m  [1m[32mINSERT INTO "amenities" ("hotel_id", "amenity_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["hotel_id", 1], ["amenity_name", "Reception"], ["created_at", "2019-05-15 15:39:01.169030"], ["updated_at", "2019-05-15 15:39:01.169030"]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[36mAmenity Create (0.4ms)[0m  [1m[32mINSERT INTO "amenities" ("hotel_id", "amenity_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["hotel_id", 1], ["amenity_name", "Spa"], ["created_at", "2019-05-15 15:39:01.171359"], ["updated_at", "2019-05-15 15:39:01.171359"]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[36mAmenity Create (0.4ms)[0m  [1m[32mINSERT INTO "amenities" ("hotel_id", "amenity_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["hotel_id", 1], ["amenity_name", "Salon"], ["created_at", "2019-05-15 15:39:01.174546"], ["updated_at", "2019-05-15 15:39:01.174546"]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.3ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.5ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Hummus Kavurma"], ["price", 5.25], ["created_at", "2019-05-15 15:39:01.199376"], ["updated_at", "2019-05-15 15:39:01.199376"], ["description", "A middle-eastern speciality, chickpeas with tahini, garlic, olive oil, and lemon juice"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Tabouleh"], ["price", 5.25], ["created_at", "2019-05-15 15:39:01.202320"], ["updated_at", "2019-05-15 15:39:01.202320"], ["description", "Finely chopped parlsey, fresh mint, red onion and bulgur wheat"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Ispanak Tarator"], ["price", 5.5], ["created_at", "2019-05-15 15:39:01.204814"], ["updated_at", "2019-05-15 15:39:01.204814"], ["description", "Baby spinach with a creamy garlic yogurt"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Patlican Soslu"], ["price", 5.25], ["created_at", "2019-05-15 15:39:01.207192"], ["updated_at", "2019-05-15 15:39:01.207192"], ["description", "Sautéed Aubergine, shallots and bell peppers in tomato sauce"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.4ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.4ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Falafel"], ["price", 5.25], ["created_at", "2019-05-15 15:39:01.210428"], ["updated_at", "2019-05-15 15:39:01.210428"], ["description", "Fried vegetarian balls of broad beans, celery, chickpeas and fresh herbs"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.3ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Borek"], ["price", 5.25], ["created_at", "2019-05-15 15:39:01.213434"], ["updated_at", "2019-05-15 15:39:01.213434"], ["description", "Filo pastry stuffed with feta cheese, spinach and parsley"], ["service_type", "Starter"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Cevizli Tavuk Salata"], ["price", 12.0], ["created_at", "2019-05-15 15:39:01.216055"], ["updated_at", "2019-05-15 15:39:01.216055"], ["description", "Grilled chicken, mixed greens, walnuts, avocado, green beans, broccoli with house dressing"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.4ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Deniz Mahoulleri Salata"], ["price", 12.5], ["created_at", "2019-05-15 15:39:01.218438"], ["updated_at", "2019-05-15 15:39:01.218438"], ["description", "Mixed Seafood Salad including king prawns, Queen scallops mussels, mixed greens salad with house dressing"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Kestaneli Tavuk"], ["price", 13.95], ["created_at", "2019-05-15 15:39:01.220977"], ["updated_at", "2019-05-15 15:39:01.220977"], ["description", "Grilled chicken breast stuffed with mixed vegetables and topped with a chestnut sauce"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Meyveli Kuzu"], ["price", 14.25], ["created_at", "2019-05-15 15:39:01.223519"], ["updated_at", "2019-05-15 15:39:01.223519"], ["description", "Poached lamb cubes with pears and apricots cooked in their own juice and served with couscous and almond flakes"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Etli Musakka"], ["price", 13.95], ["created_at", "2019-05-15 15:39:01.225740"], ["updated_at", "2019-05-15 15:39:01.225740"], ["description", "Sliced aubergine, minced meat, potatoes, courgettes, with herbs and topped with a bechamel sauce"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Incik"], ["price", 13.95], ["created_at", "2019-05-15 15:39:01.227895"], ["updated_at", "2019-05-15 15:39:01.227895"], ["description", "Braised lamb shank cooked in tomato sauce. Served with mashed potatoes"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Karisik Izgara"], ["price", 16.95], ["created_at", "2019-05-15 15:39:01.230164"], ["updated_at", "2019-05-15 15:39:01.230164"], ["description", "Mixed grill, lamb & chicken cubes, kofte, and lamb chops. Served with rice"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.2ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Mantar & Kuskonmazli Makarna"], ["price", 12.5], ["created_at", "2019-05-15 15:39:01.232289"], ["updated_at", "2019-05-15 15:39:01.232289"], ["description", "Penne pasta, wild mushrooms, asparagus and cherry tomatos in a cream sauce"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Imam Bayildi"], ["price", 12.5], ["created_at", "2019-05-15 15:39:01.234527"], ["updated_at", "2019-05-15 15:39:01.234527"], ["description", "Panfried whole aubergine stuffered with mixed vegetables. Served with rice"], ["service_type", "Main"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Baklava"], ["price", 4.95], ["created_at", "2019-05-15 15:39:01.237044"], ["updated_at", "2019-05-15 15:39:01.237044"], ["description", "Baklava served with ice cream"], ["service_type", "Dessert"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Kunefe"], ["price", 6.25], ["created_at", "2019-05-15 15:39:01.239645"], ["updated_at", "2019-05-15 15:39:01.239645"], ["description", "Sweet shredded phyllo filled with cheese and topped with sugar syrup and cracked pistachio"], ["service_type", "Dessert"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.2ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Kazandibi"], ["price", 4.95], ["created_at", "2019-05-15 15:39:01.242111"], ["updated_at", "2019-05-15 15:39:01.242111"], ["description", "An Istanbul speciality, upside down caramelized milk pudding topped with cinnamon served with coconut ice cream."], ["service_type", "Dessert"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.2ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 1], ["service_name", "Firinda Sutlac"], ["price", 4.95], ["created_at", "2019-05-15 15:39:01.244100"], ["updated_at", "2019-05-15 15:39:01.244100"], ["description", "Baked rice and milk pudding served with coconut ice cream"], ["service_type", "Dessert"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amenity_id", 2], ["service_name", "Clean Room"], ["created_at", "2019-05-15 15:39:01.246228"], ["updated_at", "2019-05-15 15:39:01.246228"], ["description", "On call cleaning service"], ["service_type", "Housekeeping"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.2ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 2], ["service_name", "Laundry Service"], ["price", 10.0], ["created_at", "2019-05-15 15:39:01.248370"], ["updated_at", "2019-05-15 15:39:01.248370"], ["description", "Laundry service"], ["service_type", "Housekeeping"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.2ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 2], ["service_name", "Change Towels"], ["price", 10.0], ["created_at", "2019-05-15 15:39:01.250309"], ["updated_at", "2019-05-15 15:39:01.250309"], ["description", "Housekeeping can change your towels upon request"], ["service_type", "Housekeeping"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amenity_id", 3], ["service_name", "Wake Up Call"], ["created_at", "2019-05-15 15:39:01.252475"], ["updated_at", "2019-05-15 15:39:01.252475"], ["description", "You can request a wake up call at any specified time"], ["service_type", "Reception Service"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 3], ["service_name", "Airport Shuttle"], ["price", 50.0], ["created_at", "2019-05-15 15:39:01.254701"], ["updated_at", "2019-05-15 15:39:01.254701"], ["description", "Shuttle service to the airport at any specified date and time"], ["service_type", "Reception Service"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.3ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 3], ["service_name", "Luxury vehicle and private chauffeur"], ["price", 100.0], ["created_at", "2019-05-15 15:39:01.256962"], ["updated_at", "2019-05-15 15:39:01.256962"], ["description", "We will provide you with a luxury car and private chauffeur to take you anywhere you need to go"], ["service_type", "Reception Service"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[36mService Create (0.4ms)[0m  [1m[32mINSERT INTO "services" ("amenity_id", "service_name", "price", "created_at", "updated_at", "description", "service_type") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["amenity_id", 3], ["service_name", "Taxi"], ["price", 60.0], ["created_at", "2019-05-15 15:39:01.259470"], ["updated_at", "2019-05-15 15:39:01.259470"], ["description", "Our staff can request a local taxi to take you where you need to go"], ["service_type", "Reception Service"]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.6ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Buckingham Palace"], ["description", "One of Britain's most iconic buildings, Buckingham Palace is also the scene of London's most popular display of pomp and circumstance, the Changing of the Guard."], ["image", ""], ["created_at", "2019-05-15 15:39:01.268789"], ["updated_at", "2019-05-15 15:39:01.268789"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Tower of London"], ["description", "From prison to palace, treasure vault to private zoo, the magnificent Tower of London has fulfilled many different roles down the centuries. One of Britain's most iconic structures, this spectacular World Heritage Site offers hours of fascination for visitors curious about the country's rich history. Inside the massive White Tower, built in 1078 by William the Conqueror, is the 17th-century Line of Kings with its remarkable displays of royal armaments and armor. Other highlights include the famous Crown Jewels exhibition, the Beefeaters, the Royal Mint, and gruesome exhibits about the executions that took place on the grounds."], ["image", ""], ["created_at", "2019-05-15 15:39:01.271094"], ["updated_at", "2019-05-15 15:39:01.271094"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Tower Bridge"], ["description", "There\\’s more to this ornate Victorian bridge than something cool to look at. You can venture inside. Check out the engine rooms, with the old and new machinery, then head up to glass-floored viewing platform above the draw bridge, where you can learn more about the story behind the magnificent bridge."], ["image", ""], ["created_at", "2019-05-15 15:39:01.272673"], ["updated_at", "2019-05-15 15:39:01.272673"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The British Museum"], ["description", "Displaying one of the world's finest collections of antiquities, the British Museum contains more than 13 million artifacts from the ancient world. With priceless objects from Assyria, Babylonia, China, Europe, and elsewhere, it's hard to know where to begin. But most tourists head first for the museum's most famous exhibits: the controversial Elgin Marbles from the Parthenon, the Rosetta Stone, the colossal bust of Ramesses II, the Egyptian mummies, and the spectacular hoard of 4th-century Roman silver known as the Mildenhall Treasure."], ["image", ""], ["created_at", "2019-05-15 15:39:01.274022"], ["updated_at", "2019-05-15 15:39:01.274022"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Big Ben"], ["description", "Nothing says \"London\" more emphatically than the 318-foot tower housing the giant clock and its resounding bell known as Big Ben. The tolling of Big Ben is known throughout the world as the time signal of BBC radio."], ["image", ""], ["created_at", "2019-05-15 15:39:01.275437"], ["updated_at", "2019-05-15 15:39:01.275437"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Houses of Parliament"], ["description", "Stretching along the Thames are the Houses of Parliament, seat of Britain's government for many centuries and once the site of the royal Westminster Palace occupied by William the Conqueror. Tours of the parliament buildings offer a unique chance to see real-time debates and lively political discussions."], ["image", ""], ["created_at", "2019-05-15 15:39:01.276954"], ["updated_at", "2019-05-15 15:39:01.276954"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "National Gallery"], ["description", "Ranking among the top art museums in the world, London's National Gallery represents an almost complete survey of European painting from 1260 until 1920. The museum's greatest strengths are in its collections of Dutch Masters and Italian Schools of the 15th and 16th centuries. Among its highlights are a cartoon (preliminary sketch) of the Madonna and Child by Leonardo da Vinci, Michelangelo's The Entombment, Botticelli's Venus and Mars, van Gogh's Sunflowers, and The Water-Lily Pond by Monet."], ["image", ""], ["created_at", "2019-05-15 15:39:01.278696"], ["updated_at", "2019-05-15 15:39:01.278696"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Piccadilly Circus"], ["description", "Piccadilly Circus marks the irregular intersection of several busy streets - Piccadilly, Regent, Haymarket, and Shaftesbury Avenue - and overlooking this somewhat untidy snarl of traffic stands London's best-known sculpture, the winged Eros delicately balanced on one foot, bow poised."], ["image", ""], ["created_at", "2019-05-15 15:39:01.280501"], ["updated_at", "2019-05-15 15:39:01.280501"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Trafalgar Square"], ["description", "Trafalgar Square was built to commemorate Lord Horatio Nelson's victory over the French and Spanish at Trafalgar in 1805. Nelson's Column, a 183-foot granite monument, overlooks the square's fountains and bronze reliefs, which were cast from French cannons. Admiralty Arch, St. Martin-in-the-Fields, and the National Gallery surround the square."], ["image", ""], ["created_at", "2019-05-15 15:39:01.282208"], ["updated_at", "2019-05-15 15:39:01.282208"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The Tate Modern"], ["description", "A riverside icon dedicated to all things modern and contemporary art. Based in what was the Bankside Power Station, you can discover works by the likes of Warhol, Dalí and Hockney, as well as unusual, eye-grabbing installations, which are all part of the free permanent collection."], ["image", ""], ["created_at", "2019-05-15 15:39:01.283764"], ["updated_at", "2019-05-15 15:39:01.283764"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Westminster Abbey"], ["description", "Another location with a long association with British royalty, Westminster Abbey stands on a site that's been associated with Christianity since the early 7th century. Officially known as the Collegiate Church of St. Peter in Westminster, Westminster Abbey was founded by Edward the Confessor in 1065 as his place of interment. From his burial in 1066 until that of George II almost 700 years later, most sovereigns were not only crowned here but they were buried here, too. More recently, it's become famous as the preferred location for Royal Weddings."], ["image", ""], ["created_at", "2019-05-15 15:39:01.285269"], ["updated_at", "2019-05-15 15:39:01.285269"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Churchill's War Rooms"], ["description", "Among the most fascinating and evocative of London's historic sites is the perfectly preserved nerve-center from which Prime Minister Winston Churchill directed the British military campaigns and the defense of his homeland throughout World War II."], ["image", ""], ["created_at", "2019-05-15 15:39:01.286944"], ["updated_at", "2019-05-15 15:39:01.286944"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Hyde Park"], ["description", "Covering 350 acres, Hyde Park is London's largest open space and has been a destination for sightseers since 1635. One of the park's highlights is the Serpentine, an 18th-century man-made lake popular for boating and swimming. Hyde Park is also where you'll find Speakers' Corner, a traditional forum for free speech (and heckling). Another Hyde Park landmark is Apsley House, former home of the first Duke of Wellington and purchased after his famous victory at Waterloo."], ["image", ""], ["created_at", "2019-05-15 15:39:01.288463"], ["updated_at", "2019-05-15 15:39:01.288463"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "St. Paul's Cathedral"], ["description", "The largest and most famous of London's many churches - and undoubtedly one of the most spectacular cathedral's in the world - St. Paul's Cathedral sits atop the site of a Roman temple. The previous church structure was destroyed in the Great Fire of 1666, and Sir Christopher Wren designed the rebuild. Today, the twin Baroque towers and magnificent 365-foot dome of St. Paul's are a masterpiece of English architecture. If you're up to it, be sure to walk the stairs with their spectacular views of the dome's interior, including the Whispering Gallery."], ["image", ""], ["created_at", "2019-05-15 15:39:01.289909"], ["updated_at", "2019-05-15 15:39:01.289909"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Hampton Court Palace"], ["description", "Another great Thames-side attraction, Hampton Court is one of Europe's most famous palaces. Its Great Hall dates from Henry VIII's time (two of his six wives supposedly haunt the palace), and it's where Elizabeth I learned of the defeat of the Spanish Armada. Other interesting features include the Clock Court with its fascinating astronomical clock dating from 1540, the State Apartments with their Haunted Gallery, the Chapel, the King's Apartments, and the Tudor tennis court."], ["image", ""], ["created_at", "2019-05-15 15:39:01.291354"], ["updated_at", "2019-05-15 15:39:01.291354"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Covent Garden"], ["description", "The market halls of Covent Garden are only the beginning of the neighborhood, which encompasses the shops and restaurants of Long Acre and other adjacent streets, those of Neal's Yard and Seven Dials, as well as the Central Square with its street performers. The halls and arcades of Covent Garden Market are lined with specialty shops and kiosks selling everything from fine handcrafts to tacky souvenirs."], ["image", ""], ["created_at", "2019-05-15 15:39:01.292790"], ["updated_at", "2019-05-15 15:39:01.292790"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.6ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The London Eye"], ["description", "Built to mark London's millennium celebrations in 2000, the London Eye is Europe's largest observation wheel. Its individual glass capsules offer the most spectacular views of the city as you embark on a circular tour rising 443 feet above the Thames. The journey lasts 30 minutes, often quicker than the time spent lining up for your turn. If you can, reserve your time in advance. The best option is to skip the line completely with a London Eye: Skip-the-Line Ticket. This advance ticket allows you to take a flight at any time on the day you plan to visit."], ["image", ""], ["created_at", "2019-05-15 15:39:01.294205"], ["updated_at", "2019-05-15 15:39:01.294205"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Greenwich"], ["description", "Greenwich is best known to tourists as the home of Cutty Sark, the last of the 19th-century tea clippers that sailed between Britain and China. The ship is adjacent to the Discover Greenwich Visitor Centre, with its exhibits showcasing more than 500 years of maritime history, and the Palladian mansion known as Queen's House. The impressive collections of the National Maritime Museum, the largest of its kind in the world, illustrate the history of the Royal Navy. One of the most unusual things to do in London is standing with one foot in each hemisphere, astride the Meridian Line in the Meridian Building in the Royal Observatory."], ["image", ""], ["created_at", "2019-05-15 15:39:01.296174"], ["updated_at", "2019-05-15 15:39:01.296174"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The Royal Botanic Gardens"], ["description", "A wonderful place to spend time as you enjoy the numerous plants grown amidst its 300-acres. Laid out in 1759, the gardens became government property in 1841. In 1897 Queen Victoria added Queen's Cottage and the adjoining woodland. A variety of tours are available free with admission, and many musical and cultural events are held here throughout the year."], ["image", ""], ["created_at", "2019-05-15 15:39:01.297635"], ["updated_at", "2019-05-15 15:39:01.297635"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Madame Tussauds"], ["description", "In 1802 Marie Tussaud made her waxwork debut in the capital (32 years after she founded the show in Paris). By 1884 she decided to lay down permanent roots in Marylebone and she\\’s been there ever since (well, her legacy at least). Visitors to Madame Tussauds today will find some 300 lifelike models. Major actors such as Angelina Jolie and George Clooney come together with the likes of Einstein and Monroe. Usain Bolt, Mo Farah and Jessica Ennis-Hill lead the sports personalities, while Kanye and Madonna give off ultimate attitude in the music section. Elsewhere The Queen stands proudly and YouTube stars, like Zoella, are on hand for the youngsters."], ["image", ""], ["created_at", "2019-05-15 15:39:01.298989"], ["updated_at", "2019-05-15 15:39:01.298989"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The View from the Shard"], ["description", "In 2012, Italian architect Renzo Piano transformed London\\’s skyline with a strange but striking structure that\\’s now the capital’s tallest tower. Reaching 244 metres from the ground, The Shard was built with everything in mind: offices, homes, hotels, bars, restaurants and, of course, the alluring viewing platform. From the highest point the public are allowed access (floors 69-72) you get stunning 360° views of the city. There’s also a weekly silent disco up there on Saturday nights and other events, such as Sky-High Yoga or film screenings."], ["image", ""], ["created_at", "2019-05-15 15:39:01.300394"], ["updated_at", "2019-05-15 15:39:01.300394"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Royal Albert Hall"], ["description", "Situated across the road from the ornate golden memorial statue of Prince Albert, is another dedication. The construction of Royal Albert Hall was ordered by Queen Victoria and named after her late husband. Since its completion the hall has hosted music and theatre and continues to do so to this day – most famously hosting the Proms."], ["image", ""], ["created_at", "2019-05-15 15:39:01.301843"], ["updated_at", "2019-05-15 15:39:01.301843"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (8.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mHotel Load (0.7ms)[0m  [1m[34mSELECT "hotels".* FROM "hotels"[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mHotel Destroy (0.6ms)[0m  [1m[31mDELETE FROM "hotels" WHERE "hotels"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[36mGuest Load (0.8ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ db/seeds.rb:2
+  [1m[36mRoom Load (0.7ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.5ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.6ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.2ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.2ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 23]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 24]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 25]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 26]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 27]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 28]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.2ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 29]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 30]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 31]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 32]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 33]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mRoom Destroy (0.5ms)[0m  [1m[31mDELETE FROM "rooms" WHERE "rooms"."id" = $1[0m  [["id", 34]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAmenity Load (0.6ms)[0m  [1m[34mSELECT "amenities".* FROM "amenities"[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mAmenity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "amenities" WHERE "amenities"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mAmenity Destroy (0.4ms)[0m  [1m[31mDELETE FROM "amenities" WHERE "amenities"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mAmenity Destroy (0.4ms)[0m  [1m[31mDELETE FROM "amenities" WHERE "amenities"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mAmenity Destroy (0.3ms)[0m  [1m[31mDELETE FROM "amenities" WHERE "amenities"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mAmenity Destroy (0.3ms)[0m  [1m[31mDELETE FROM "amenities" WHERE "amenities"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[36mService Load (0.7ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.6ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.4ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 23]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.5ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 24]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 25]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mService Destroy (0.3ms)[0m  [1m[31mDELETE FROM "services" WHERE "services"."id" = $1[0m  [["id", 26]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAttraction Load (0.7ms)[0m  [1m[34mSELECT "attractions".* FROM "attractions"[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.5ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.5ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.5ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.2ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAttraction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "attractions" WHERE "attractions"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[36mBooking Load (0.5ms)[0m  [1m[34mSELECT "bookings".* FROM "bookings"[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mHotel Create (0.5ms)[0m  [1m[32mINSERT INTO "hotels" ("hotel_name", "location", "logo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["hotel_name", "Test Hotel"], ["location", "London, United Kingdom"], ["logo", "app/assets/images/test_hotel_logo.png"], ["created_at", "2019-05-15 15:39:10.499739"], ["updated_at", "2019-05-15 15:39:10.499739"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.4ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.3ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.3ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:81
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:81
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:81
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.2ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:91
+  [1m[36mHotel Load (0.1ms)[0m  [1m[34mSELECT  "hotels".* FROM "hotels" WHERE "hotels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:91
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.3ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.3ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.3ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.2ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:279
+  [1m[36mAmenity Load (0.1ms)[0m  [1m[34mSELECT  "amenities".* FROM "amenities" WHERE "amenities"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:279
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.4ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Buckingham Palace"], ["description", "One of Britain's most iconic buildings, Buckingham Palace is also the scene of London's most popular display of pomp and circumstance, the Changing of the Guard."], ["image", ""], ["created_at", "2019-05-15 15:39:10.676355"], ["updated_at", "2019-05-15 15:39:10.676355"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Tower of London"], ["description", "From prison to palace, treasure vault to private zoo, the magnificent Tower of London has fulfilled many different roles down the centuries. One of Britain's most iconic structures, this spectacular World Heritage Site offers hours of fascination for visitors curious about the country's rich history. Inside the massive White Tower, built in 1078 by William the Conqueror, is the 17th-century Line of Kings with its remarkable displays of royal armaments and armor. Other highlights include the famous Crown Jewels exhibition, the Beefeaters, the Royal Mint, and gruesome exhibits about the executions that took place on the grounds."], ["image", ""], ["created_at", "2019-05-15 15:39:10.678277"], ["updated_at", "2019-05-15 15:39:10.678277"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Tower Bridge"], ["description", "There\\’s more to this ornate Victorian bridge than something cool to look at. You can venture inside. Check out the engine rooms, with the old and new machinery, then head up to glass-floored viewing platform above the draw bridge, where you can learn more about the story behind the magnificent bridge."], ["image", ""], ["created_at", "2019-05-15 15:39:10.679876"], ["updated_at", "2019-05-15 15:39:10.679876"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The British Museum"], ["description", "Displaying one of the world's finest collections of antiquities, the British Museum contains more than 13 million artifacts from the ancient world. With priceless objects from Assyria, Babylonia, China, Europe, and elsewhere, it's hard to know where to begin. But most tourists head first for the museum's most famous exhibits: the controversial Elgin Marbles from the Parthenon, the Rosetta Stone, the colossal bust of Ramesses II, the Egyptian mummies, and the spectacular hoard of 4th-century Roman silver known as the Mildenhall Treasure."], ["image", ""], ["created_at", "2019-05-15 15:39:10.681477"], ["updated_at", "2019-05-15 15:39:10.681477"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Big Ben"], ["description", "Nothing says \"London\" more emphatically than the 318-foot tower housing the giant clock and its resounding bell known as Big Ben. The tolling of Big Ben is known throughout the world as the time signal of BBC radio."], ["image", ""], ["created_at", "2019-05-15 15:39:10.682883"], ["updated_at", "2019-05-15 15:39:10.682883"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Houses of Parliament"], ["description", "Stretching along the Thames are the Houses of Parliament, seat of Britain's government for many centuries and once the site of the royal Westminster Palace occupied by William the Conqueror. Tours of the parliament buildings offer a unique chance to see real-time debates and lively political discussions."], ["image", ""], ["created_at", "2019-05-15 15:39:10.684371"], ["updated_at", "2019-05-15 15:39:10.684371"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "National Gallery"], ["description", "Ranking among the top art museums in the world, London's National Gallery represents an almost complete survey of European painting from 1260 until 1920. The museum's greatest strengths are in its collections of Dutch Masters and Italian Schools of the 15th and 16th centuries. Among its highlights are a cartoon (preliminary sketch) of the Madonna and Child by Leonardo da Vinci, Michelangelo's The Entombment, Botticelli's Venus and Mars, van Gogh's Sunflowers, and The Water-Lily Pond by Monet."], ["image", ""], ["created_at", "2019-05-15 15:39:10.685832"], ["updated_at", "2019-05-15 15:39:10.685832"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Piccadilly Circus"], ["description", "Piccadilly Circus marks the irregular intersection of several busy streets - Piccadilly, Regent, Haymarket, and Shaftesbury Avenue - and overlooking this somewhat untidy snarl of traffic stands London's best-known sculpture, the winged Eros delicately balanced on one foot, bow poised."], ["image", ""], ["created_at", "2019-05-15 15:39:10.687357"], ["updated_at", "2019-05-15 15:39:10.687357"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Trafalgar Square"], ["description", "Trafalgar Square was built to commemorate Lord Horatio Nelson's victory over the French and Spanish at Trafalgar in 1805. Nelson's Column, a 183-foot granite monument, overlooks the square's fountains and bronze reliefs, which were cast from French cannons. Admiralty Arch, St. Martin-in-the-Fields, and the National Gallery surround the square."], ["image", ""], ["created_at", "2019-05-15 15:39:10.688822"], ["updated_at", "2019-05-15 15:39:10.688822"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The Tate Modern"], ["description", "A riverside icon dedicated to all things modern and contemporary art. Based in what was the Bankside Power Station, you can discover works by the likes of Warhol, Dalí and Hockney, as well as unusual, eye-grabbing installations, which are all part of the free permanent collection."], ["image", ""], ["created_at", "2019-05-15 15:39:10.690262"], ["updated_at", "2019-05-15 15:39:10.690262"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.5ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Westminster Abbey"], ["description", "Another location with a long association with British royalty, Westminster Abbey stands on a site that's been associated with Christianity since the early 7th century. Officially known as the Collegiate Church of St. Peter in Westminster, Westminster Abbey was founded by Edward the Confessor in 1065 as his place of interment. From his burial in 1066 until that of George II almost 700 years later, most sovereigns were not only crowned here but they were buried here, too. More recently, it's become famous as the preferred location for Royal Weddings."], ["image", ""], ["created_at", "2019-05-15 15:39:10.691873"], ["updated_at", "2019-05-15 15:39:10.691873"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.5ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Churchill's War Rooms"], ["description", "Among the most fascinating and evocative of London's historic sites is the perfectly preserved nerve-center from which Prime Minister Winston Churchill directed the British military campaigns and the defense of his homeland throughout World War II."], ["image", ""], ["created_at", "2019-05-15 15:39:10.693976"], ["updated_at", "2019-05-15 15:39:10.693976"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Hyde Park"], ["description", "Covering 350 acres, Hyde Park is London's largest open space and has been a destination for sightseers since 1635. One of the park's highlights is the Serpentine, an 18th-century man-made lake popular for boating and swimming. Hyde Park is also where you'll find Speakers' Corner, a traditional forum for free speech (and heckling). Another Hyde Park landmark is Apsley House, former home of the first Duke of Wellington and purchased after his famous victory at Waterloo."], ["image", ""], ["created_at", "2019-05-15 15:39:10.696082"], ["updated_at", "2019-05-15 15:39:10.696082"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "St. Paul's Cathedral"], ["description", "The largest and most famous of London's many churches - and undoubtedly one of the most spectacular cathedral's in the world - St. Paul's Cathedral sits atop the site of a Roman temple. The previous church structure was destroyed in the Great Fire of 1666, and Sir Christopher Wren designed the rebuild. Today, the twin Baroque towers and magnificent 365-foot dome of St. Paul's are a masterpiece of English architecture. If you're up to it, be sure to walk the stairs with their spectacular views of the dome's interior, including the Whispering Gallery."], ["image", ""], ["created_at", "2019-05-15 15:39:10.697885"], ["updated_at", "2019-05-15 15:39:10.697885"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Hampton Court Palace"], ["description", "Another great Thames-side attraction, Hampton Court is one of Europe's most famous palaces. Its Great Hall dates from Henry VIII's time (two of his six wives supposedly haunt the palace), and it's where Elizabeth I learned of the defeat of the Spanish Armada. Other interesting features include the Clock Court with its fascinating astronomical clock dating from 1540, the State Apartments with their Haunted Gallery, the Chapel, the King's Apartments, and the Tudor tennis court."], ["image", ""], ["created_at", "2019-05-15 15:39:10.699580"], ["updated_at", "2019-05-15 15:39:10.699580"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Covent Garden"], ["description", "The market halls of Covent Garden are only the beginning of the neighborhood, which encompasses the shops and restaurants of Long Acre and other adjacent streets, those of Neal's Yard and Seven Dials, as well as the Central Square with its street performers. The halls and arcades of Covent Garden Market are lined with specialty shops and kiosks selling everything from fine handcrafts to tacky souvenirs."], ["image", ""], ["created_at", "2019-05-15 15:39:10.701294"], ["updated_at", "2019-05-15 15:39:10.701294"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The London Eye"], ["description", "Built to mark London's millennium celebrations in 2000, the London Eye is Europe's largest observation wheel. Its individual glass capsules offer the most spectacular views of the city as you embark on a circular tour rising 443 feet above the Thames. The journey lasts 30 minutes, often quicker than the time spent lining up for your turn. If you can, reserve your time in advance. The best option is to skip the line completely with a London Eye: Skip-the-Line Ticket. This advance ticket allows you to take a flight at any time on the day you plan to visit."], ["image", ""], ["created_at", "2019-05-15 15:39:10.702927"], ["updated_at", "2019-05-15 15:39:10.702927"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Greenwich"], ["description", "Greenwich is best known to tourists as the home of Cutty Sark, the last of the 19th-century tea clippers that sailed between Britain and China. The ship is adjacent to the Discover Greenwich Visitor Centre, with its exhibits showcasing more than 500 years of maritime history, and the Palladian mansion known as Queen's House. The impressive collections of the National Maritime Museum, the largest of its kind in the world, illustrate the history of the Royal Navy. One of the most unusual things to do in London is standing with one foot in each hemisphere, astride the Meridian Line in the Meridian Building in the Royal Observatory."], ["image", ""], ["created_at", "2019-05-15 15:39:10.704417"], ["updated_at", "2019-05-15 15:39:10.704417"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.2ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The Royal Botanic Gardens"], ["description", "A wonderful place to spend time as you enjoy the numerous plants grown amidst its 300-acres. Laid out in 1759, the gardens became government property in 1841. In 1897 Queen Victoria added Queen's Cottage and the adjoining woodland. A variety of tours are available free with admission, and many musical and cultural events are held here throughout the year."], ["image", ""], ["created_at", "2019-05-15 15:39:10.705944"], ["updated_at", "2019-05-15 15:39:10.705944"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.4ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Madame Tussauds"], ["description", "In 1802 Marie Tussaud made her waxwork debut in the capital (32 years after she founded the show in Paris). By 1884 she decided to lay down permanent roots in Marylebone and she\\’s been there ever since (well, her legacy at least). Visitors to Madame Tussauds today will find some 300 lifelike models. Major actors such as Angelina Jolie and George Clooney come together with the likes of Einstein and Monroe. Usain Bolt, Mo Farah and Jessica Ennis-Hill lead the sports personalities, while Kanye and Madonna give off ultimate attitude in the music section. Elsewhere The Queen stands proudly and YouTube stars, like Zoella, are on hand for the youngsters."], ["image", ""], ["created_at", "2019-05-15 15:39:10.707565"], ["updated_at", "2019-05-15 15:39:10.707565"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "The View from the Shard"], ["description", "In 2012, Italian architect Renzo Piano transformed London\\’s skyline with a strange but striking structure that\\’s now the capital’s tallest tower. Reaching 244 metres from the ground, The Shard was built with everything in mind: offices, homes, hotels, bars, restaurants and, of course, the alluring viewing platform. From the highest point the public are allowed access (floors 69-72) you get stunning 360° views of the city. There’s also a weekly silent disco up there on Saturday nights and other events, such as Sky-High Yoga or film screenings."], ["image", ""], ["created_at", "2019-05-15 15:39:10.709541"], ["updated_at", "2019-05-15 15:39:10.709541"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:396
+  [1m[36mAttraction Create (0.3ms)[0m  [1m[32mINSERT INTO "attractions" ("attraction_name", "description", "image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["attraction_name", "Royal Albert Hall"], ["description", "Situated across the road from the ornate golden memorial statue of Prince Albert, is another dedication. The construction of Royal Albert Hall was ordered by Queen Victoria and named after her late husband. Since its completion the hall has hosted music and theatre and continues to do so to this day – most famously hosting the Proms."], ["image", ""], ["created_at", "2019-05-15 15:39:10.711395"], ["updated_at", "2019-05-15 15:39:10.711395"]]
+  ↳ db/seeds.rb:396
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:396
+Started GET "/guests" for ::1 at 2019-05-15 16:39:47 +0100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mariam/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.7ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ app/controllers/guests_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.13ms)
+Completed 200 OK in 12ms (Views: 4.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/hotels" for ::1 at 2019-05-15 16:41:16 +0100
+Processing by HotelsController#index as HTML
+  [1m[36mHotel Load (0.9ms)[0m  [1m[34mSELECT "hotels".* FROM "hotels"[0m
+  ↳ app/controllers/hotels_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.55ms)
+Completed 200 OK in 25ms (Views: 13.9ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/guests" for ::1 at 2019-05-15 16:41:22 +0100
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.4ms)[0m  [1m[34mSELECT "guests".* FROM "guests"[0m
+  ↳ app/controllers/guests_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.06ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/attractions" for ::1 at 2019-05-15 16:41:28 +0100
+Processing by AttractionsController#index as HTML
+  [1m[36mAttraction Load (1.0ms)[0m  [1m[34mSELECT "attractions".* FROM "attractions"[0m
+  ↳ app/controllers/attractions_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.94ms)
+Completed 200 OK in 18ms (Views: 11.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/services" for ::1 at 2019-05-15 16:41:37 +0100
+Processing by ServicesController#index as HTML
+  [1m[36mService Load (0.7ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/controllers/services_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.07ms)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/rooms" for ::1 at 2019-05-15 16:41:42 +0100
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.8ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms"[0m
+  ↳ app/controllers/rooms_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/amenities" for ::1 at 2019-05-15 16:41:47 +0100
+Processing by AmenitiesController#index as HTML
+  [1m[36mAmenity Load (0.8ms)[0m  [1m[34mSELECT "amenities".* FROM "amenities"[0m
+  ↳ app/controllers/amenities_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.24ms)
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 2.7ms)
+
+
