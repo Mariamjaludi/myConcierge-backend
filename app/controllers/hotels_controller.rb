@@ -4,7 +4,7 @@ class HotelsController < ApplicationController
     # GET /hotels
     def index
       @hotels = Hotel.all
-      render json: @hotels
+      render json: @hotels, include: '*.*'
     end
 
     # GET /hotels/1

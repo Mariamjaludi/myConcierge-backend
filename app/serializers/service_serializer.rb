@@ -1,3 +1,3 @@
 class ServiceSerializer < ActiveModel::Serializer
-  attributes :id, :amenity_id, :service_name, :price
+  attributes :service_name, :service_type, :description, :price
 end
