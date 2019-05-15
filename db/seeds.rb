@@ -1,45 +1,77 @@
 Hotel.destroy_all
 Guest.destroy_all
-Room.destroy_all]
+Room.destroy_all
 Amenity.destroy_all
-AmenityService.destroy_all
-ServiceBooking.destroy_all
+Service.destroy_all
+Attraction.destroy_all
+Booking.destroy_all
+#########################################HOTEL########################################################
+Hotel.create({hotel_name: "Test Hotel", location: "London, United Kingdom", logo: 'app/assets/images/test_hotel_logo.png' })
 
-Hotel.create({name: "Test Hotel", location: "London, United Kingdom", logo: 'app/assets/images/test_hotel_logo.png' })
+#######################################GUESTS#########################################################
+guests = [
+  {guest_name: 'Russel Lynwood', check_in: '2019-05-18', check_out: '2019-05-20', days_stayed: 2, room_id: 1},
+  {guest_name: 'Hamza Toufik Naji', check_in: '2019-07-17', check_out: '2019-08-07', days_stayed: 22 , room_id: 33},
+  {guest_name: 'Dahlia Walters', check_in: '2019-08-07', check_out: '2019-08-08', days_stayed: 1, room_id: 8},
+  {guest_name: 'Haya Amjad', check_in: '2019-08-08', check_out: '2019-08-12', days_stayed: 4, room_id: 29},
+  {guest_name: 'Nicole Beaufort', check_in: '2019-09-18', check_out: '2019-09-21', days_stayed: 3, room_id: 18},
+  {guest_name: 'Adam Béranger', check_in: '2019-09-28', check_out: '2019-10-03', days_stayed: 5, room_id: 5},
 
+  {guest_name: 'Tai Zan Sung' , check_in: '2019-06-02', check_out: '2019-06-12', days_stayed: 10,  room_id: 21},
+  {guest_name: 'Jiang Hua Lee', check_in: '2019-06-20', check_out: '2019-06-29', days_stayed: 9, room_id: 3},
+  {guest_name: 'Kamini Sharma', check_in: '2019-07-04', check_out: '2019-07-07', days_stayed: 3, room_id: 2},
+  {guest_name: 'Ashwin Kumar', check_in: '2019-07-18', check_out: '2019-07-28', days_stayed: 10, room_id: 14},
+  {guest_name: 'Ivano Narciso', check_in: '2019-07-28', check_out: '2019-07-30', days_stayed: 2, room_id: 9},
+  {guest_name: 'Rubina Carlevaro', check_in: '2019-07-28', check_out: '2019-08-04', days_stayed: 7, room_id: 17},
 
+  {guest_name: 'Aron Popławski' , check_in: '2019-06-04', check_out: '2019-06-09', days_stayed: 5, room_id: 27},
+  {guest_name: 'Magdallena Ryba', check_in: '2019-05-15', check_out: '2019-05-18', days_stayed: 3, room_id: 24},
+  {guest_name: 'Kazimir Aleksandrov', check_in: '2019-08-05', check_out: '2019-08-08', days_stayed: 3, room_id: 4},
+  {guest_name: 'Anya Shvets', check_in: '2019-09-25', check_out: '2019-09-30', days_stayed: 5, room_id: 10},
+  {guest_name: 'Sami Demir', check_in: '2019-09-07', check_out: '2019-09-10', days_stayed: 3, room_id: 11},
+  {guest_name: 'Yasmin Peynirci', check_in: '2019-08-04', check_out: '2019-08-12', days_stayed: 8, room_id: 12}
 
+]
+
+Guest.create(guests)
+#########################################ROOMS########################################################
 rooms = [
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
+
   { hotel_id: 1, room_type: "Standard Room", floor: 5, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 5, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 5, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 5, cost_per_night: 312 },
   { hotel_id: 1, room_type: "Standard Room", floor: 5, cost_per_night: 312 },
+
   { hotel_id: 1, room_type: "Superior Room", floor: 6, cost_per_night: 434 },
   { hotel_id: 1, room_type: "Superior Room", floor: 6, cost_per_night: 434 },
   { hotel_id: 1, room_type: "Superior Room", floor: 6, cost_per_night: 434 },
   { hotel_id: 1, room_type: "Superior Room", floor: 7, cost_per_night: 434 },
   { hotel_id: 1, room_type: "Superior Room", floor: 7, cost_per_night: 434 },
+
   { hotel_id: 1, room_type: "Superior Double Room", floor: 6, cost_per_night: 479 },
   { hotel_id: 1, room_type: "Superior Double Room", floor: 6, cost_per_night: 479 },
   { hotel_id: 1, room_type: "Superior Double Room", floor: 7, cost_per_night: 479 },
   { hotel_id: 1, room_type: "Superior Double Room", floor: 7, cost_per_night: 479 },
   { hotel_id: 1, room_type: "Superior Double Room", floor: 7, cost_per_night: 479 },
+
   { hotel_id: 1, room_type: "Deluxe Room", floor: 8, cost_per_night: 554 },
   { hotel_id: 1, room_type: "Deluxe Room", floor: 8, cost_per_night: 554 },
   { hotel_id: 1, room_type: "Deluxe Room", floor: 9, cost_per_night: 554 },
   { hotel_id: 1, room_type: "Deluxe Room", floor: 9, cost_per_night: 554 },
   { hotel_id: 1, room_type: "Deluxe Doule Room", floor: 8, cost_per_night: 604 },
+
   { hotel_id: 1, room_type: "Deluxe Doule Room", floor: 8, cost_per_night: 604 },
   { hotel_id: 1, room_type: "Deluxe Doule Room", floor: 9, cost_per_night: 604 },
   { hotel_id: 1, room_type: "Deluxe Doule Room", floor: 9, cost_per_night: 604 },
   { hotel_id: 1, room_type: "One Bedroom Suite", floor: 10, cost_per_night: 712 },
   { hotel_id: 1, room_type: "One Bedroom Suite", floor: 11, cost_per_night: 712 },
+
   { hotel_id: 1, room_type: "Deluxe Suite", floor: 10, cost_per_night: 1200 },
   { hotel_id: 1, room_type: "Deluxe Suite", floor: 11, cost_per_night: 1200 },
   { hotel_id: 1, room_type: "Luxury Suite", floor: 12, cost_per_night: 2770 },
@@ -47,24 +79,207 @@ rooms = [
 ]
 
 Room.create(rooms)
-
+####################################AMENITIES###############################################
 amenities = [
   { hotel_id: 1, amenity_name: "Restaurant" },
-  { hotel_id: 1, amenity_name: "Spa" },
-  { hotel_id: 1, amenity_name: "Salon" },
   { hotel_id: 1, amenity_name: "Housekeeping" },
-  { hotel_id: 1, amenity_name: "Reception"}
+  { hotel_id: 1, amenity_name: "Reception"},
+  { hotel_id: 1, amenity_name: "Spa" },
+  { hotel_id: 1, amenity_name: "Salon" }
 ]
 
 Amenity.create(amenities)
+###################################SERVICES#################################################
+
+services = [
+  {
+    amenity_id: 1,
+    service_name: "Hummus Kavurma",
+    service_type: "Starter",
+    description: "A middle-eastern speciality, chickpeas with tahini, garlic, olive oil, and lemon juice",
+    price: 5.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Tabouleh",
+    service_type: "Starter",
+    description: "Finely chopped parlsey, fresh mint, red onion and bulgur wheat",
+    price: 5.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Ispanak Tarator",
+    service_type: "Starter",
+    description: "Baby spinach with a creamy garlic yogurt",
+    price: 5.50
+  },
+  {
+    amenity_id: 1,
+    service_name: "Patlican Soslu",
+    service_type: "Starter",
+    description: "Sautéed Aubergine, shallots and bell peppers in tomato sauce",
+    price: 5.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Falafel",
+    service_type: "Starter",
+    description: "Fried vegetarian balls of broad beans, celery, chickpeas and fresh herbs",
+    price: 5.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Borek",
+    service_type: "Starter",
+    description: "Filo pastry stuffed with feta cheese, spinach and parsley",
+    price: 5.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Cevizli Tavuk Salata",
+    service_type: "Main",
+    description: "Grilled chicken, mixed greens, walnuts, avocado, green beans, broccoli with house dressing",
+    price: 12.00
+  },
+  {
+    amenity_id: 1,
+    service_name: "Deniz Mahoulleri Salata",
+    service_type: "Main",
+    description: "Mixed Seafood Salad including king prawns, Queen scallops mussels, mixed greens salad with house dressing",
+    price: 12.50
+  },
+  {
+    amenity_id: 1,
+    service_name: "Kestaneli Tavuk",
+    service_type: "Main",
+    description: "Grilled chicken breast stuffed with mixed vegetables and topped with a chestnut sauce",
+    price: 13.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Meyveli Kuzu",
+    service_type: "Main",
+    description: "Poached lamb cubes with pears and apricots cooked in their own juice and served with couscous and almond flakes",
+    price: 14.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Etli Musakka",
+    service_type: "Main",
+    description: "Sliced aubergine, minced meat, potatoes, courgettes, with herbs and topped with a bechamel sauce",
+    price: 13.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Incik",
+    service_type: "Main",
+    description: "Braised lamb shank cooked in tomato sauce. Served with mashed potatoes",
+    price: 13.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Karisik Izgara",
+    service_type: "Main",
+    description: "Mixed grill, lamb & chicken cubes, kofte, and lamb chops. Served with rice",
+    price: 16.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Mantar & Kuskonmazli Makarna",
+    service_type: "Main",
+    description: "Penne pasta, wild mushrooms, asparagus and cherry tomatos in a cream sauce",
+    price: 12.50
+  },
+  {
+    amenity_id: 1,
+    service_name: "Imam Bayildi",
+    service_type: "Main",
+    description: "Panfried whole aubergine stuffered with mixed vegetables. Served with rice",
+    price: 12.50
+  },
+  {
+    amenity_id: 1,
+    service_name: "Baklava",
+    service_type: "Dessert",
+    description: "Baklava served with ice cream",
+    price: 4.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Kunefe",
+    service_type: "Dessert",
+    description: "Sweet shredded phyllo filled with cheese and topped with sugar syrup and cracked pistachio",
+    price: 6.25
+  },
+  {
+    amenity_id: 1,
+    service_name: "Kazandibi",
+    service_type: "Dessert",
+    description: "An Istanbul speciality, upside down caramelized milk pudding topped with cinnamon served with coconut ice cream.",
+    price: 4.95
+  },
+  {
+    amenity_id: 1,
+    service_name: "Firinda Sutlac",
+    service_type: "Dessert",
+    description: "Baked rice and milk pudding served with coconut ice cream",
+    price: 4.95
+  },
+  {
+    amenity_id: 2,
+    service_name: "Clean Room",
+    service_type: "Housekeeping",
+    description: "On call cleaning service",
+    price: nil
+  },
+  {
+    amenity_id: 2,
+    service_name: "Laundry Service",
+    service_type: "Housekeeping",
+    description: "Laundry service",
+    price: 10
+  },
+  {
+    amenity_id: 2,
+    service_name: "Change Towels",
+    service_type: "Housekeeping",
+    description: "Housekeeping can change your towels upon request",
+    price: 10
+  },
+  {
+    amenity_id: 3,
+    service_name: "Wake Up Call",
+    service_type: "Reception Service",
+    description: "You can request a wake up call at any specified time",
+    price: nil
+  },
+  {
+    amenity_id: 3,
+    service_name: "Airport Shuttle",
+    service_type: "Reception Service",
+    description: "Shuttle service to the airport at any specified date and time",
+    price: 50
+  },
+  {
+    amenity_id: 3,
+    service_name: "Luxury vehicle and private chauffeur",
+    service_type: "Reception Service",
+    description: "We will provide you with a luxury car and private chauffeur to take you anywhere you need to go",
+    price: 100
+  },
+  {
+    amenity_id: 3,
+    service_name: "Taxi",
+    service_type: "Reception Service",
+    description: "Our staff can request a local taxi to take you where you need to go",
+    price: 60
+  }
+]
+
+Service.create(services)
 
 
-
-
-
-
-
-
+#########################################ATTRACTIONS############################################
 attractions = [
   {
     attraction_name: 'Buckingham Palace',
@@ -179,3 +394,5 @@ attractions = [
 ]
 
 Attraction.create(attractions)
+
+# console.log("___________________________________SEEDED_______________________________________________")

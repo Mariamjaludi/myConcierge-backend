@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_15_105150) do
+ActiveRecord::Schema.define(version: 2019_05_15_151453) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,14 +42,11 @@ ActiveRecord::Schema.define(version: 2019_05_15_105150) do
   create_table "guests", force: :cascade do |t|
     t.integer "room_id"
     t.string "guest_name"
-    t.string "phone_no"
-    t.string "passport_no"
-    t.string "address"
-    t.date "check_in"
-    t.date "check_out"
     t.integer "days_stayed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "check_in"
+    t.string "check_out"
   end
 
   create_table "hotels", force: :cascade do |t|
@@ -75,6 +72,8 @@ ActiveRecord::Schema.define(version: 2019_05_15_105150) do
     t.float "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "description"
+    t.string "service_type"
   end
 
 end
