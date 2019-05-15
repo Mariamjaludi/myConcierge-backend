@@ -9,31 +9,32 @@ Booking.destroy_all
 Hotel.create({hotel_name: "Test Hotel", location: "London, United Kingdom", logo: 'app/assets/images/test_hotel_logo.png' })
 
 #######################################GUESTS#########################################################
-guests = [
-  {guest_name: 'Russel Lynwood', check_in: '2019-05-18', check_out: '2019-05-20', days_stayed: 2, room_id: 1},
-  {guest_name: 'Hamza Toufik Naji', check_in: '2019-07-17', check_out: '2019-08-07', days_stayed: 22 , room_id: 33},
-  {guest_name: 'Dahlia Walters', check_in: '2019-08-07', check_out: '2019-08-08', days_stayed: 1, room_id: 8},
-  {guest_name: 'Haya Amjad', check_in: '2019-08-08', check_out: '2019-08-12', days_stayed: 4, room_id: 29},
-  {guest_name: 'Nicole Beaufort', check_in: '2019-09-18', check_out: '2019-09-21', days_stayed: 3, room_id: 18},
-  {guest_name: 'Adam Béranger', check_in: '2019-09-28', check_out: '2019-10-03', days_stayed: 5, room_id: 5},
+# guests = [
+#   {guest_name: 'Russel Lynwood', check_in: '2019-05-18', check_out: '2019-05-20', days_stayed: 2, room_id: 1},
+#   {guest_name: 'Hamza Toufik Naji', check_in: '2019-07-17', check_out: '2019-08-07', days_stayed: 22 , room_id: 33},
+#   {guest_name: 'Dahlia Walters', check_in: '2019-08-07', check_out: '2019-08-08', days_stayed: 1, room_id: 8},
+#   {guest_name: 'Haya Amjad', check_in: '2019-08-08', check_out: '2019-08-12', days_stayed: 4, room_id: 29},
+#   {guest_name: 'Nicole Beaufort', check_in: '2019-09-18', check_out: '2019-09-21', days_stayed: 3, room_id: 18},
+#   {guest_name: 'Adam Béranger', check_in: '2019-09-28', check_out: '2019-10-03', days_stayed: 5, room_id: 5},
+#
+#   {guest_name: 'Tai Zan Sung' , check_in: '2019-06-02', check_out: '2019-06-12', days_stayed: 10,  room_id: 21},
+#   {guest_name: 'Jiang Hua Lee', check_in: '2019-06-20', check_out: '2019-06-29', days_stayed: 9, room_id: 3},
+#   {guest_name: 'Kamini Sharma', check_in: '2019-07-04', check_out: '2019-07-07', days_stayed: 3, room_id: 2},
+#   {guest_name: 'Ashwin Kumar', check_in: '2019-07-18', check_out: '2019-07-28', days_stayed: 10, room_id: 14},
+#   {guest_name: 'Ivano Narciso', check_in: '2019-07-28', check_out: '2019-07-30', days_stayed: 2, room_id: 9},
+#   {guest_name: 'Rubina Carlevaro', check_in: '2019-07-28', check_out: '2019-08-04', days_stayed: 7, room_id: 17},
+#
+#   {guest_name: 'Aron Popławski' , check_in: '2019-06-04', check_out: '2019-06-09', days_stayed: 5, room_id: 27},
+#   {guest_name: 'Magdallena Ryba', check_in: '2019-05-15', check_out: '2019-05-18', days_stayed: 3, room_id: 24},
+#   {guest_name: 'Kazimir Aleksandrov', check_in: '2019-08-05', check_out: '2019-08-08', days_stayed: 3, room_id: 4},
+#   {guest_name: 'Anya Shvets', check_in: '2019-09-25', check_out: '2019-09-30', days_stayed: 5, room_id: 10},
+#   {guest_name: 'Sami Demir', check_in: '2019-09-07', check_out: '2019-09-10', days_stayed: 3, room_id: 11},
+#   {guest_name: 'Yasmin Peynirci', check_in: '2019-08-04', check_out: '2019-08-12', days_stayed: 8, room_id: 12}
+#
+# ]
 
-  {guest_name: 'Tai Zan Sung' , check_in: '2019-06-02', check_out: '2019-06-12', days_stayed: 10,  room_id: 21},
-  {guest_name: 'Jiang Hua Lee', check_in: '2019-06-20', check_out: '2019-06-29', days_stayed: 9, room_id: 3},
-  {guest_name: 'Kamini Sharma', check_in: '2019-07-04', check_out: '2019-07-07', days_stayed: 3, room_id: 2},
-  {guest_name: 'Ashwin Kumar', check_in: '2019-07-18', check_out: '2019-07-28', days_stayed: 10, room_id: 14},
-  {guest_name: 'Ivano Narciso', check_in: '2019-07-28', check_out: '2019-07-30', days_stayed: 2, room_id: 9},
-  {guest_name: 'Rubina Carlevaro', check_in: '2019-07-28', check_out: '2019-08-04', days_stayed: 7, room_id: 17},
-
-  {guest_name: 'Aron Popławski' , check_in: '2019-06-04', check_out: '2019-06-09', days_stayed: 5, room_id: 27},
-  {guest_name: 'Magdallena Ryba', check_in: '2019-05-15', check_out: '2019-05-18', days_stayed: 3, room_id: 24},
-  {guest_name: 'Kazimir Aleksandrov', check_in: '2019-08-05', check_out: '2019-08-08', days_stayed: 3, room_id: 4},
-  {guest_name: 'Anya Shvets', check_in: '2019-09-25', check_out: '2019-09-30', days_stayed: 5, room_id: 10},
-  {guest_name: 'Sami Demir', check_in: '2019-09-07', check_out: '2019-09-10', days_stayed: 3, room_id: 11},
-  {guest_name: 'Yasmin Peynirci', check_in: '2019-08-04', check_out: '2019-08-12', days_stayed: 8, room_id: 12}
-
-]
-
-Guest.create(guests)
+# Guest.create(guests)
+Guest.create({guest_name: 'Russel Lynwood', check_in: '2019-05-18', check_out: '2019-05-20', days_stayed: 2, room_id: 1})
 #########################################ROOMS########################################################
 rooms = [
   { hotel_id: 1, room_type: "Standard Room", floor: 4, cost_per_night: 312 },
