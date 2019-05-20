@@ -12,6 +12,13 @@ class GuestsController < ApplicationController
     render json: @guest
   end
 
+  def login
+    @guest = Guest.find_by(
+      guest_name: params[:guest_name],
+      hotel_booking_id: params[:hotel_booking_id]
+    )
+    render json: @guest
+  end
   # POST /guests
   # def create
   #   @guest = Guest.new(guest_params)
@@ -43,7 +50,8 @@ class GuestsController < ApplicationController
       :check_in,
       :check_out,
       :room_id,
-      :days_stayed
+      :days_stayed,
+      :hotel_booking_id
     )
   end
 end

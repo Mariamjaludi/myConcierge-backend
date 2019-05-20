@@ -14,6 +14,7 @@ class BookingsController < ApplicationController
 
     # POST /bookings
     def create
+    
       @booking = Booking.new(booking_params)
       if @booking.save
         render json: @booking
@@ -42,7 +43,8 @@ class BookingsController < ApplicationController
         :service_id,
         :guest_id,
         :booking_date,
-        :booking_time
+        :booking_time,
+        :num_of_guests
       )
     end
 end
