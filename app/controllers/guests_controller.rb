@@ -9,7 +9,7 @@ class GuestsController < ApplicationController
 
   # GET /guests/1
   def show
-    render json: @guest
+    render json: @guest, include: '*.*'
   end
 
   def login
