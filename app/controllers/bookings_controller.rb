@@ -14,7 +14,7 @@ class BookingsController < ApplicationController
 
     # POST /bookings
     def create
-    
+    # byebug
       @booking = Booking.new(booking_params)
       if @booking.save
         render json: @booking
