@@ -12,31 +12,17 @@ class GuestsController < ApplicationController
     render json: @guest, include: '*.*'
   end
 
-  def login
-    @guest = Guest.find_by(
-      guest_name: params[:guest_name],
-      hotel_booking_id: params[:hotel_booking_id]
-    )
-    render json: @guest
+  def create
+    guest = Guest.new(guest_name: params[:guest_name], password: params[:password], room_id: params[:room_id])
+    if guest.save
+      payload = {guest_id: guest.id}
+      token = issue_token(payload)
+      render json: { jwt: token }
+    else
+      render json: { error: "Signup not successful !"}
+    end
   end
-  # POST /guests
-  # def create
-  #   @guest = Guest.new(guest_params)
-  #   if @guest.save
-  #     render json: @guest
-  #   else
-  #     render json: @guest.errors
-  #   end
-  # end
 
-  # PATCH /guests/1
-  # def update
-  #   if @guest.update(guest_params)
-  #     render json: @guest
-  #   else
-  #     render json: @guest.errors
-  #   end
-  # end
 
   private
 
@@ -46,7 +32,8 @@ class GuestsController < ApplicationController
 
   def guest_params
     params.require(:guest).permit(
-      :name,
+      :guest_name,
+      :password,
       :check_in,
       :check_out,
       :room_id,

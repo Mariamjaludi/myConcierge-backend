@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_20_223532) do
+ActiveRecord::Schema.define(version: 2019_05_23_130608) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 2019_05_20_223532) do
     t.string "check_in"
     t.string "check_out"
     t.integer "hotel_booking_id"
+    t.string "password_digest"
   end
 
   create_table "hotels", force: :cascade do |t|

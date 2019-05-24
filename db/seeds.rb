@@ -14,26 +14,26 @@ Hotel.create(
 
 # ######################################GUESTS##################################
 guests = [
-  { hotel_booking_id: 5513, room_id: 1, guest_name: 'Russel Lynwood', days_stayed: 2, check_in: '2019-05-18', check_out: '2019-05-20' },
-  { hotel_booking_id: 3548, guest_name: 'Hamza Toufik Naji', check_in: '2019-07-17', check_out: '2019-08-07', days_stayed: 22, room_id: 33 },
-  { hotel_booking_id: 5612, guest_name: 'Dahlia Walters', check_in: '2019-08-07', check_out: '2019-08-08', days_stayed: 1, room_id: 8 },
-  { hotel_booking_id: 7227, guest_name: 'Haya Amjad', check_in: '2019-08-08', check_out: '2019-08-12', days_stayed: 4, room_id: 29 },
-  { hotel_booking_id: 6712, guest_name: 'Nicole Beaufort', check_in: '2019-09-18', check_out: '2019-09-21', days_stayed: 3, room_id: 18 },
-  { hotel_booking_id: 2910, guest_name: 'Adam Béranger', check_in: '2019-09-28', check_out: '2019-10-03', days_stayed: 5, room_id: 5 },
+  { hotel_booking_id: 5513, room_id: 1, guest_name: 'Russel Lynwood', days_stayed: 2, check_in: '2019-05-18', check_out: '2019-05-20', password: "5513"},
+  { hotel_booking_id: 3548, guest_name: 'Hamza Toufik Naji', check_in: '2019-07-17', check_out: '2019-08-07', days_stayed: 22, room_id: 33, password: "3548"},
+  { hotel_booking_id: 5612, guest_name: 'Dahlia Walters', check_in: '2019-08-07', check_out: '2019-08-08', days_stayed: 1, room_id: 8, password: "5612"},
+  { hotel_booking_id: 7227, guest_name: 'Haya Amjad', check_in: '2019-08-08', check_out: '2019-08-12', days_stayed: 4, room_id: 29, password: "7227" },
+  { hotel_booking_id: 6712, guest_name: 'Nicole Beaufort', check_in: '2019-09-18', check_out: '2019-09-21', days_stayed: 3, room_id: 18, password: "6712" },
+  { hotel_booking_id: 2910, guest_name: 'Adam Béranger', check_in: '2019-09-28', check_out: '2019-10-03', days_stayed: 5, room_id: 5, password: "2910" },
 
-  { hotel_booking_id: 2853, guest_name: 'Tai Zan Sung', check_in: '2019-06-02', check_out: '2019-06-12', days_stayed: 10, room_id: 21 },
-  { hotel_booking_id: 4246, guest_name: 'Jiang Hua Lee', check_in: '2019-06-20', check_out: '2019-06-29', days_stayed: 9, room_id: 3 },
-  { hotel_booking_id: 2535, guest_name: 'Kamini Sharma', check_in: '2019-07-04', check_out: '2019-07-07', days_stayed: 3, room_id: 2 },
-  { hotel_booking_id: 7172, guest_name: 'Ashwin Kumar', check_in: '2019-07-18', check_out: '2019-07-28', days_stayed: 10, room_id: 14 },
-  { hotel_booking_id: 3734, guest_name: 'Ivano Narciso', check_in: '2019-07-28', check_out: '2019-07-30', days_stayed: 2, room_id: 9 },
-  { hotel_booking_id: 5801, guest_name: 'Rubina Carlevaro', check_in: '2019-07-28', check_out: '2019-08-04', days_stayed: 7, room_id: 17 },
+  { hotel_booking_id: 2853, guest_name: 'Tai Zan Sung', check_in: '2019-06-02', check_out: '2019-06-12', days_stayed: 10, room_id: 21, password: "2853"},
+  { hotel_booking_id: 4246, guest_name: 'Jiang Hua Lee', check_in: '2019-06-20', check_out: '2019-06-29', days_stayed: 9, room_id: 3, password: "4246" },
+  { hotel_booking_id: 2535, guest_name: 'Kamini Sharma', check_in: '2019-07-04', check_out: '2019-07-07', days_stayed: 3, room_id: 2, password: "2535"},
+  { hotel_booking_id: 7172, guest_name: 'Ashwin Kumar', check_in: '2019-07-18', check_out: '2019-07-28', days_stayed: 10, room_id: 14, password: "7172"},
+  { hotel_booking_id: 3734, guest_name: 'Ivano Narciso', check_in: '2019-07-28', check_out: '2019-07-30', days_stayed: 2, room_id: 9, password: "3734"},
+  { hotel_booking_id: 5801, guest_name: 'Rubina Carlevaro', check_in: '2019-07-28', check_out: '2019-08-04', days_stayed: 7, room_id: 17, password: "5801"},
 
-  { hotel_booking_id: 1206, guest_name: 'Aron Popławski', check_in: '2019-06-04', check_out: '2019-06-09', days_stayed: 5, room_id: 27 },
-  { hotel_booking_id: 6699, guest_name: 'Magdallena Ryba', check_in: '2019-05-15', check_out: '2019-05-18', days_stayed: 3, room_id: 24 },
-  { hotel_booking_id: 7508, guest_name: 'Kazimir Aleksandrov', check_in: '2019-08-05', check_out: '2019-08-08', days_stayed: 3, room_id: 4 },
-  { hotel_booking_id: 7372, guest_name: 'Anya Shvets', check_in: '2019-09-25', check_out: '2019-09-30', days_stayed: 5, room_id: 10 },
-  { hotel_booking_id: 3721, guest_name: 'Sami Demir', check_in: '2019-09-07', check_out: '2019-09-10', days_stayed: 3, room_id: 11 },
-  { hotel_booking_id: 3092, guest_name: 'Yasmin Peynirci', check_in: '2019-08-04', check_out: '2019-08-12', days_stayed: 8, room_id: 12 }
+  { hotel_booking_id: 1206, guest_name: 'Aron Popławski', check_in: '2019-06-04', check_out: '2019-06-09', days_stayed: 5, room_id: 27, password: "1206" },
+  { hotel_booking_id: 6699, guest_name: 'Magdallena Ryba', check_in: '2019-05-15', check_out: '2019-05-18', days_stayed: 3, room_id: 24, password: "6699" },
+  { hotel_booking_id: 7508, guest_name: 'Kazimir Aleksandrov', check_in: '2019-08-05', check_out: '2019-08-08', days_stayed: 3, room_id: 4, password: "7508" },
+  { hotel_booking_id: 7372, guest_name: 'Anya Shvets', check_in: '2019-09-25', check_out: '2019-09-30', days_stayed: 5, room_id: 10, password: "7372" },
+  { hotel_booking_id: 3721, guest_name: 'Sami Demir', check_in: '2019-09-07', check_out: '2019-09-10', days_stayed: 3, room_id: 11, password: "3721"},
+  { hotel_booking_id: 3092, guest_name: 'Yasmin Peynirci', check_in: '2019-08-04', check_out: '2019-08-12', days_stayed: 8, room_id: 12, password: "3092" }
 ]
 
 # ########################################ROOMS#################################
