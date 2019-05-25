@@ -257,31 +257,206 @@ services = [
   },
   {
     amenity_id: 3,
-    service_name: 'Wake Up Call',
-    service_type: 'Reception Service',
-    description: 'You can request a wake up call at any specified time',
-    price: nil
-  },
-  {
-    amenity_id: 3,
     service_name: 'Airport Shuttle',
-    service_type: 'Reception Service',
+    service_type: 'Transportation',
     description: 'Shuttle service to the airport at any specified date and time',
     price: 50
   },
   {
     amenity_id: 3,
-    service_name: 'Luxury vehicle and private chauffeur',
-    service_type: 'Reception Service',
+    service_name: 'Luxury vehicle with private chauffeur',
+    service_type: 'Transportation',
     description: 'We will provide you with a luxury car and private chauffeur to take you anywhere you need to go',
     price: 100
   },
   {
     amenity_id: 3,
     service_name: 'Taxi',
-    service_type: 'Reception Service',
+    service_type: 'Transportation',
     description: 'Our staff can request a local taxi to take you where you need to go',
     price: 60
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Hot Stone Massage',
+    service_type: 'Massage Treatment',
+    description: 'Tailored massage with hot stones unravels persistent muscular tightness while pure, aromatic essential oils encompass your mind to relieve stress, recharge your spirits and leave you feeling rejuvenated.',
+    price: 165
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Swedish Massage',
+    service_type: 'Massage Treatment',
+    description: 'An invigorating massage that revives the body and enlightens the spirit. This traditional Swedish massage with pure, nourishing oils boosts your circulation, alleviates tightness and aching muscles.',
+    price: 165
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Balinese Massage',
+    service_type: 'Massage Treatment',
+    description: 'Immerse yourself in deep relaxation with this harmonising massage. Long, sweeping massage movements with the finest therapeutic aromatherapy oils gently warm your body and soothe your mind, while inspiring your inner calm.',
+    price: 220
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Four Hands Massage',
+    service_type: 'Massage Treatment',
+    description: 'Two therapists will work together in a synchronised massage designed to relieve tension from every aching muscle.',
+    price: 245
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Sea Salt and Oil Scrub',
+    service_type: 'Body Treatment',
+    description: 'Revive the skin’s natural softness and glow with this intensely smoothing exfoliating treatment. An ideal way to prepare skin for a massage, a natural blend of sea salt and the purest oils polishes away dull, dry cells and infuses skin with rich nourishment. Skin feels smooth, supple and looks radiantly healthy.',
+    price: 95
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Intensive Rose Body Hydrator',
+    service_type: 'Body Treatment',
+    description: 'Precious essential oil of damask rose works on renewing the skin whilst the aroma has an expansive quality that soothes and calms the emotions and nurtures the heart.',
+    price: 145
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Detoxifying Eucalyptus and Seaweed Wrap',
+    service_type: 'Body Treatment',
+    description: 'An intense full-body scrub, with a stimulating and detoxifying blend of salt, eucalyptus, seaweed and lemon. A cocooning wrap of detoxifying extracts with rare, re-mineralizing fossil mud leaves the skin deeply cleansed and stimulated. A relaxing face and head acupressure-massage eases muscle tension and induces a deep sense of calm.',
+    price: 95
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Inner Beauty Facial',
+    service_type: 'Facial Treatment',
+    description: 'Deeply cleanse, hydrate and renew with this instant results facial. Personalised to your skin\'s precise needs, natural ingredients work immediately to transform your complexion, while pure aromatherapeutic oils calm your mind.',
+    price: 165
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Oxygen Treatment',
+    service_type: 'Facial Treatment',
+    description: 'This treatment delivers enhanced efficacy with a unique serum enriched with vitamin A and hyaluronic acid. Oxygen is nature’s most powerful healing element and has been used by the medical industry on various skin conditions for many years. These ingredients visibly plump and firm the skin.',
+    price: 95
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Natural Face Lift',
+    service_type: 'Facial Treatment',
+    description: 'Reveal resilient, healthy-looking, youthful skin. This instant results facial uses cutting edge advanced microbiome technology, combined with the benefits of physical exercise to detoxify, invigorate, sculpt and relax, leaving your skin firm, lifted and beautifully radiant.',
+    price: 235
+  },
+  {
+    amenity_id: 4,
+    service_name: 'Natural Face Lift',
+    service_type: 'Facial Treatment',
+    description: 'Reveal resilient, healthy-looking, youthful skin. This instant results facial uses cutting edge advanced microbiome technology, combined with the benefits of physical exercise to detoxify, invigorate, sculpt and relax, leaving your skin firm, lifted and beautifully radiant.',
+    price: 235
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Wash, Cut & Blowdry',
+    service_type: 'Cutting and Styling',
+    description: 'Wash, Cut & Blowdry',
+    price: 80
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Wash, Cut & Finish without Blowdry',
+    service_type: 'Cutting and Styling',
+    description: 'Wash, Cut & Finish without Blowdry',
+    price: 60
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Purifying and Nourishing Hair Treatment',
+    service_type: 'Hair Treatment',
+    description: 'With an instant cosmetic effect this treatment miraculously acts as a type of hair filler to re-plump and compact the hair structure leaving it full of body along with a super high gloss and shine.',
+    price: 30
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Highlights and Babylights Half Head',
+    service_type: 'Colour Services',
+    description: 'Highlights and Babylights',
+    price: 140
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Highlights and Babylights Full Head',
+    service_type: 'Colour Services',
+    description: 'Highlights and Babylights',
+    price: 180
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Balayage Half Head',
+    service_type: 'Colour Services',
+    description: 'Balayage',
+    price: 140
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Balayage Full Head',
+    service_type: 'Colour Services',
+    description: 'Balayage',
+    price: 165
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Hair Gloss',
+    service_type: 'Colour Services',
+    description: 'Hair Gloss',
+    price: 75
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Hair Tint',
+    service_type: 'Colour Services',
+    description: 'Hair Tint',
+    price: 80
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Gel Manicure',
+    service_type: 'Nails',
+    description: 'Get ultra glossy nails that last. This gel-based polish stays shiny and chip free for up to 14 days with zero drying time. (35mins)',
+    price: 60
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Polish Manicure',
+    service_type: 'Nails',
+    description: 'Nails are shaped, cuticles are immaculately tided before Shellac long lasting polish is expertly applied.(30 mins)',
+    price: 45
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Express Manicure',
+    service_type: 'Nails',
+    description: 'The quick maintenance manicure; nails are shaped, buffed, luxe hand cream applied, finishing with a fresh pop of colour. (20 mins)',
+    price: 35
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Polish Pedicure',
+    service_type: 'Nails',
+    description: 'The maintenance pedicure; Nails are trimmed and filed to shape, cuticles are tidied, hard skin is extensively removed from the soles of feet before feet are exfoliated and smoothed with luxe massage cream and nails are finished with polish. (45mins)',
+    price: 57
+  },
+  {
+    amenity_id: 5,
+    service_name: 'Express Pedicure',
+    service_type: 'Nails',
+    description: 'Nails are trimmed and filed to shape, hard skin is buffed away, the soles of feet are hydrated and nails are finished with polish. (30mins)',
+    price: 45
+  },
+  {
+    amenity_id: 6,
+    service_name: 'Wake Up Call',
+    service_type: 'Wake Up Call',
+    description: 'You can request a wake up call at any specified time',
+    price: nil
   }
 ]
 
