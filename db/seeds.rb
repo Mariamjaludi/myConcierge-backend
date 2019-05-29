@@ -83,15 +83,17 @@ rooms = [
 Room.create(rooms)
 # ###################################AMENITIES##################################
 amenities = [
-  { hotel_id: 1, amenity_name: 'Dining', image: 'https://images.pexels.com/photos/995743/pexels-photo-995743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+  { hotel_id: 1, amenity_name: 'Dining', image: 'https://66.media.tumblr.com/d5c6ee7b2f631ed0167b6540ca6f9b8a/tumblr_ovyx1ncWu01u9ooogo1_540.gif' },
   { hotel_id: 1, amenity_name: 'Housekeeping', image: 'https://images.pexels.com/photos/1437861/pexels-photo-1437861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-  { hotel_id: 1, amenity_name: 'Chauffeur/Taxi', image: 'https://www.towergateinsurance.co.uk/media/4720970/best-car-chauffeurs.jpg'},
-  { hotel_id: 1, amenity_name: 'Spa', image: 'https://images.pexels.com/photos/1531672/pexels-photo-1531672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
+  { hotel_id: 1, amenity_name: 'Chauffeur/Taxi', image: 'https://66.media.tumblr.com/01182ce7e6d1a200b6e73aee7ed47146/tumblr_oydwgaU0wY1ul3hzoo1_540.gif'},
+  { hotel_id: 1, amenity_name: 'Wellness', image: 'https://images.pexels.com/photos/1531672/pexels-photo-1531672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
   { hotel_id: 1, amenity_name: 'Salon', image: 'https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
   { hotel_id: 1, amenity_name: 'Wake Up Call', image: 'https://images.pexels.com/photos/40817/alarm-clock-black-and-white-reflection-clock-40817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' }
 ]
 
 Amenity.create(amenities)
+
+# taxi image https://66.media.tumblr.com/6c7178c923bf88130cd8cdffe57701ad/tumblr_o6zp1p1LXd1qff8kqo1_500.jpg
 # ##################################SERVICES####################################
 
 services = [
@@ -338,13 +340,6 @@ services = [
     service_type: 'Facial Treatment',
     description: 'This treatment delivers enhanced efficacy with a unique serum enriched with vitamin A and hyaluronic acid. Oxygen is nature’s most powerful healing element and has been used by the medical industry on various skin conditions for many years. These ingredients visibly plump and firm the skin.',
     price: 95
-  },
-  {
-    amenity_id: 4,
-    service_name: 'Natural Face Lift',
-    service_type: 'Facial Treatment',
-    description: 'Reveal resilient, healthy-looking, youthful skin. This instant results facial uses cutting edge advanced microbiome technology, combined with the benefits of physical exercise to detoxify, invigorate, sculpt and relax, leaving your skin firm, lifted and beautifully radiant.',
-    price: 235
   },
   {
     amenity_id: 4,
