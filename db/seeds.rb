@@ -7,7 +7,7 @@ Attraction.destroy_all
 Booking.destroy_all
 # ########################################HOTEL#################################
 Hotel.create(
-  hotel_name: 'Test Hotel',
+  hotel_name: 'myConcierge',
   location: 'London, United Kingdom',
   logo: 'app/assets/images/test_hotel_logo.png'
 )
