@@ -83,9 +83,9 @@ rooms = [
 Room.create(rooms)
 # ###################################AMENITIES##################################
 amenities = [
-  { hotel_id: 1, amenity_name: 'Dining', image: 'https://66.media.tumblr.com/d5c6ee7b2f631ed0167b6540ca6f9b8a/tumblr_ovyx1ncWu01u9ooogo1_540.gif' },
+  { hotel_id: 1, amenity_name: 'Dining', image: 'https://images.pexels.com/photos/995743/pexels-photo-995743.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260' },
   { hotel_id: 1, amenity_name: 'Housekeeping', image: 'https://images.pexels.com/photos/1437861/pexels-photo-1437861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-  { hotel_id: 1, amenity_name: 'Chauffeur/Taxi', image: 'https://66.media.tumblr.com/01182ce7e6d1a200b6e73aee7ed47146/tumblr_oydwgaU0wY1ul3hzoo1_540.gif'},
+  { hotel_id: 1, amenity_name: 'Chauffeur/Taxi', image: 'https://images.pexels.com/photos/1427573/pexels-photo-1427573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'},
   { hotel_id: 1, amenity_name: 'Wellness', image: 'https://images.pexels.com/photos/1531672/pexels-photo-1531672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
   { hotel_id: 1, amenity_name: 'Salon', image: 'https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
   { hotel_id: 1, amenity_name: 'Wake Up Call', image: 'https://images.pexels.com/photos/40817/alarm-clock-black-and-white-reflection-clock-40817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' }
